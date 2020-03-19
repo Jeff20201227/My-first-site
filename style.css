@@ -8,22 +8,22 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
     justify-content: space-around;
     align-items: center;
-    height: 68px;
+    height: 7vw;
     background-color: #dfdfdf;
     border: 1px solid #b5b7ba;
     text-decoration: none;
 }
 
 header nav a {
-    margin-left: 4px;
-    font-size: 20px;
-    border: 1px solid #b5b7ba;
-    border-spacing: 5px;
+    padding: 0.5vw;
+    font-size: 18px;
     color: #4d4d4d;
     text-decoration: none;
+    height: auto;
 }
 
 header nav a.selected {
@@ -37,16 +37,15 @@ h1 {
     font-weight: 300;
     color: #2e353d;
     text-align: center;
-    padding: 1%;
+    padding-top: 1%;
 }
 
 main {
-    width: auto;
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
     justify-content: space-around;
     align-items: center;
     padding: 4%;
-    flex-wrap: wrap;
 }
 
 main img {
