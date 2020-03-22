@@ -26,19 +26,19 @@
             <div class="map">
 
                 <input id="dog" type="name" placeholder="Не стреляй в собаку">
-                <label class="dog dog1" for="dog"></label>
+                <label class="dog dog1 riffle_dog" for="dog"></label>
 
                 <input id="duck1" type="checkbox">
-                <label class="duck duck1" for="duck1"></label>
+                <label class="duck duck1 riffle" for="duck1"></label>
 
-                <input id="duck2" type="checkbox">
-                <label class="duck duck2" for="duck2"></label>
+                <input id="duck2" type="checkbox" class="riffle">
+                <label class="duck duck2 riffle" for="duck2"></label>
 
-                <input id="duck3" type="checkbox">
-                <label class="duck duck3" for="duck3"></label>
+                <input id="duck3" type="checkbox" class="riffle">
+                <label class="duck duck3 riffle" for="duck3"></label>
 
-                <input id="duck4" type="checkbox">
-                <label class="duck duck4" for="duck4"></label>
+                <input id="duck4" type="checkbox" class="riffle">
+                <label class="duck duck4 riffle" for="duck4"></label>
                 <div class="count"></div>
 
             </div>

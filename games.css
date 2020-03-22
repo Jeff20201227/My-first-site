@@ -196,6 +196,14 @@ input[type="checkbox"] {
     transition: opacity .2s;
 }
 
+.riffle {
+    cursor: url('img/gun-hunter-riffle.png'), auto;
+}
+
+.riffle_dog {
+    cursor: url('img/gun-hunter-riffle_dog.png'), auto;
+}
+
 .dog.dog1 {
     width: 112px;
     height: 100px;
@@ -214,17 +222,19 @@ input[type="button"]:checked {}
 
 input[type="checkbox"]:checked + .duck {
     opacity: 0;
+    display: none;
 }
 
 .count::after {
-    content: counter(score);
+    content: counter(score) " подстрелено уток";
     position: absolute;
-    left: 50%;
-    bottom: 32px;
+    left: 25%;
+    top: 90%;
     color: white;
     font-size: 48px;
     font-weight: bold;
     font-family: sans-serif;
+    z-index: 0;
 }
 
 .duck1 {
@@ -249,4 +259,5 @@ input[type="checkbox"]:checked + .duck {
 
 .dog {
     animation: DogFind 4s linear 3s infinite normal;
+    z-index: 1;
 }
