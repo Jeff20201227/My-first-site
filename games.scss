@@ -8,6 +8,8 @@
         left: random(90) + vw;
         top: random(90) + vh;
         animation: duckFly $i*1s ease $i*1s 1 normal;
+        animation: duckFlyTwo $i*1s ease-in-out $i*1s 1 normal;
+        animation: duckFlyThree $i*1s ease-in $i*1s 1 normal;
         animation-iteration-count: infinite;
     }
 }
@@ -244,26 +246,6 @@ input[type="checkbox"]:checked + .duck {
     font-weight: bold;
     font-family: sans-serif;
     z-index: 0;
-}
-
-.duck1 {
-    animation: duckFly 3s ease 0s 1 normal;
-    animation-iteration-count: infinite;
-}
-
-.duck2 {
-    animation: duckFlyTwo 7s ease-in-out 1s 1 normal;
-    animation-iteration-count: infinite;
-}
-
-.duck3 {
-    animation: duckFlyThree 5s ease-in 0s 1 normal;
-    animation-iteration-count: infinite;
-}
-
-.duck4 {
-    animation: duckFly 9s ease 2s 1 normal;
-    animation-iteration-count: infinite;
 }
 
 .dog {

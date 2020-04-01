@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Личный сайт студента GeekBrains</title>
     <link rel="stylesheet" href="../style.css" media="screen">
-    <link rel="stylesheet" href="../games.scss" media="screen">
+    <link rel="stylesheet" href="../games.css" media="screen">
 </head>
 
 <body>
